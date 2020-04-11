@@ -1,22 +1,26 @@
-baseURL = "https://examplesite.com/"
+baseURL = "https://elastic-hamilton-379a5a.netlify.com/"
 disqusShortname = ""
 languageCode = "en-us"
 paginate = "5"
 summaryLength = "10"
 theme = "northendlab-hugo"
-title = "Northendlab | Blog Template"
+title = "Arifin Person"
+[[menu.footer]]
+URL = "contact"
+name = "Contact"
+weight = 1
 [[menu.footer]]
 URL = "tools"
 name = "tools"
 weight = 2
-[[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 1
 [[menu.main]]
 URL = "contact"
 name = "Contact"
 weight = 1
+[[menu.main]]
+URL = "tools"
+name = "tools"
+weight = 2
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
 [params]
